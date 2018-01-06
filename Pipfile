@@ -10,6 +10,7 @@ name = "pypi"
 flask = "*"
 flask-restful = "*"
 tinydb = "*"
+requests = "*"
 
 
 [dev-packages]
