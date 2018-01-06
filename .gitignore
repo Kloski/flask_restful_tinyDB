@@ -1,0 +1,14 @@
+### Python ###
+__pycache__/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Visual Studio code ###
+.vscode/
+
+### Project files ###
+fileTinyDB.json
