@@ -14,6 +14,9 @@ class TinyDBWrapper(object):
         self.db = db
         self.query = Query()
 
+    def _clear_db(self):
+        self.db.purge()
+
     def _get_query_property(self, property_name):
         return getattr(self.query, property_name)
 
@@ -27,11 +30,11 @@ class TinyDBWrapper(object):
         self.db.insert(json_data)
 
     def find_by_property_has_value(self, property_name, property_value):
-        self.db.search(self._get_query_property(
+        return self.db.search(self._get_query_property(
             property_name) == property_value)
 
     def find_by_property_contains_value(self, property_name, property_value):
-        self.db.search(self._get_search_query(property_name, property_value))
+        return self.db.search(self._get_search_query(property_name, property_value))
 
     def update(self, property_name, property_value, updated_data):
         self.db.update(updated_data, self._get_search_query(
