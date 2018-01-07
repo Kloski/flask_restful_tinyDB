@@ -15,7 +15,7 @@ api = Api(api_blueprint)
 
 api.add_resource(DummyController, '/dummy/<int:id>')
 api.add_resource(JsonDataController, '/json')
-api.add_resource(JsonParamsDataController, '/json/<int:id>')
+api.add_resource(JsonParamsDataController, '/json/<prop>/<val>')
 api.add_resource(ObjectController, '/object')
 
 flask_app = Flask(__name__)
