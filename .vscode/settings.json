@@ -1,0 +1,8 @@
+{
+    "python.venvPath": "/home/kloski/.local/share/virtualenvs/Dagger_flask_API-UP3g4Zsh",
+    "python.pythonPath": "/home/kloski/.virtualenvs/Dagger_flask_API-UP3g4Zsh/bin/python",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.ropeproject": true,
+    }
+}
