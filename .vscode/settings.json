@@ -1,8 +1,11 @@
 {
-    "python.venvPath": "/home/kloski/.local/share/virtualenvs/Dagger_flask_API-UP3g4Zsh",
-    "python.pythonPath": "/home/kloski/.virtualenvs/Dagger_flask_API-UP3g4Zsh/bin/python",
+    "python.venvPath": "/home/savior/.local/share/virtualenvs/flask_restful_tinyDB-rIlvQLHB",
+    "python.pythonPath": "/home/savior/.local/share/virtualenvs/flask_restful_tinyDB-rIlvQLHB/bin/python",
     "files.exclude": {
         "**/__pycache__": true,
         "**/.ropeproject": true,
+    },
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/savior/.platformio/penv/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
     }
 }

@@ -40,6 +40,21 @@
             ]
         },
         {
+            "name": "Python: Tests2",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${config:python.pythonPath}",
+            "program": "${workspaceFolder}/app/run_test.py",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}"
+            },
+            "debugOptions": [
+                "RedirectOutput"
+            ]
+        },
+        {
             "name": "Python: Terminal (integrated)",
             "type": "python",
             "request": "launch",

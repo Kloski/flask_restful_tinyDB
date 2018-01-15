@@ -11,6 +11,7 @@ flask = "*"
 flask-restful = "*"
 tinydb = "*"
 requests = "*"
+pyserial = "*"
 
 
 [dev-packages]
