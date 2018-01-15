@@ -16,7 +16,7 @@ print(db_client.get_all())
 print(db_client.find_by_property_contains_value('Object', '0'))
 
 ''' Request PUT on Server '''
-res = requests.put(REQUEST_URL + '/Object/0', json={'Value' : 0})
+res = requests.put(REQUEST_URL + '/Object/0', json={'Value': 0})
 print(res)
 
 ''' Now Get New DB and request for Object : 0 '''
